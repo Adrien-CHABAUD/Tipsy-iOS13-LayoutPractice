@@ -197,18 +197,19 @@
                         <outlet property="tenPctButton" destination="Rwu-A9-VfH" id="45L-T7-kS7"/>
                         <outlet property="twentyPctButton" destination="CKa-YD-tVk" id="lKY-1T-JPt"/>
                         <outlet property="zeroPctButton" destination="NIj-D2-Uq5" id="EAc-Bb-TP2"/>
+                        <segue destination="Dnf-m2-FPm" kind="presentation" identifier="goToResults" id="Ojv-Ls-KIQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="139" y="118"/>
+            <point key="canvasLocation" x="130" y="117"/>
         </scene>
         <!--Results View Controller-->
         <scene sceneID="bJV-Cc-sXH">
             <objects>
                 <viewController id="Dnf-m2-FPm" customClass="ResultsViewController" customModule="Tipsy" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="E4v-0r-cyo">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1aU-5P-VMi">
@@ -245,7 +246,7 @@
                                 </constraints>
                             </view>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fzV-gt-7rc">
-                                <rect key="frame" x="107" y="808" width="200" height="54"/>
+                                <rect key="frame" x="107" y="788" width="200" height="54"/>
                                 <color key="backgroundColor" red="0.0" green="0.69019607839999997" blue="0.41960784309999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="54" id="037-CA-jk5"/>
@@ -292,7 +293,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uLi-Eb-NGd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="893" y="118"/>
+            <point key="canvasLocation" x="1238" y="100"/>
         </scene>
     </scenes>
 </document>
