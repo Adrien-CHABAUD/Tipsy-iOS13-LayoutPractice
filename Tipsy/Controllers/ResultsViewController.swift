@@ -13,8 +13,17 @@ class ResultsViewController: UIViewController {
     @IBOutlet weak var totalLabel: UILabel!
     @IBOutlet weak var settingsLabel: UILabel!
     
+    var tip = 0.1
+    var finalResult = "0.0"
+    var numberOfPeople = 2
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let percentageTip = String(format: "%.0f", tip * 100)
+        
+        totalLabel.text = finalResult
+        settingsLabel.text = "Split between \(numberOfPeople) people, with \(percentageTip)% tip."
 
         // Do any additional setup after loading the view.
     }
